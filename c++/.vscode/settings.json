@@ -1,0 +1,13 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "utility": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "list": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp"
+    }
+}

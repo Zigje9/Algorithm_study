@@ -1,10 +1,10 @@
 #include <iostream>
+#include <math.h>
+#include <algorithm>
 #include <vector>
 
 using namespace std;
-
 int N;
-int a;
 vector<int> v;
 
 int main(){
@@ -13,11 +13,24 @@ int main(){
     cout.tie(0);
     cin >> N;
     for(int i=0 ; i<N ; i++){
-        cin >> a;
-        v.push_back(a);
+        int k;
+        cin >> k;
+        v.push_back(k);
     }
-    for(int i=0 ; i<N ; i++){
-        cout << v[i] << " ";
-    }
+
+    sort(v.begin(),v.end());
+    int max = 0;
+    do{
+        int temp = 0;
+        for(int i=0 ; i<N-1 ; i++){
+            temp += abs(v[i]-v[i+1]);
+        }
+        if(max < temp){
+            max = temp;
+        }
+    }while(next_permutation(v.begin(),v.end()));
+
+    cout << max;
+
     return 0;
 }

@@ -17,3 +17,5 @@ for i in list(combinations(Alpha, L)):
             cc += 1
     if vv >= 1 and cc >= 2:
         print(''.join(i))
+
+

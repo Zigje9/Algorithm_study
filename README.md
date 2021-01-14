@@ -1,4 +1,4 @@
 # Algorithm study
 
 ## Language 
-`python3` `c++`
+`python` `c++` `javascript`

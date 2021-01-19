@@ -20,3 +20,4 @@ function solution(A) {
   return Math.max(po[po.length-1]*po[po.length-2]*po[po.length-3],po[po.length-1]*ne[0]*ne[1])
 }
 //3개의 곱의 최대값
+//더간단하게 분기처리 가능 배열을 정렬만하고 이용

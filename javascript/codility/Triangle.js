@@ -7,3 +7,4 @@ function solution(A) {
   }
   return 0
 }
+// 삼각형을 이루는 값이 있는지

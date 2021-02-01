@@ -27,17 +27,8 @@
 # print(False and True)
 # print(False and False)
 
-def dfs(i, j):
-    print(i, j)
-    if j==2:
-        i += 1
-        j = i + 1
-    else:
-        j += 1
-    if i == 2:
-        return
-    dfs(i, j)
-    dfs(i, j)
-    dfs(i, j)
-
-dfs(0, 1)
+ab = [1, 2, 3]
+# print(ab[1:])
+# print(ab[-1])
+ab.pop()
+print(ab)

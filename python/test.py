@@ -14,15 +14,30 @@
 
 # print(B)
 
-a = "123"
-b = "1234"
+# a = "123"
+# b = "1234"
 
-print(a.startswith(b))
-print(b.startswith(a))
-print(a in b)
-print(b in a)
-print("----")
-print(True and False)
-print(False and True)
-print(False and False)
-print(True and True)
+
+# print(True and True)print(a.startswith(b))
+# print(b.startswith(a))
+# print(a in b)
+# print(b in a)
+# print("----")
+# print(True and False)
+# print(False and True)
+# print(False and False)
+
+def dfs(i, j):
+    print(i, j)
+    if j==2:
+        i += 1
+        j = i + 1
+    else:
+        j += 1
+    if i == 2:
+        return
+    dfs(i, j)
+    dfs(i, j)
+    dfs(i, j)
+
+dfs(0, 1)

@@ -27,8 +27,15 @@
 # print(False and True)
 # print(False and False)
 
-ab = [1, 2, 3]
-# print(ab[1:])
-# print(ab[-1])
-ab.pop()
-print(ab)
+# ab = [1, 2, 3]
+# # print(ab[1:])
+# # print(ab[-1])
+# ab.pop()
+# # print(ab)
+
+# import re
+# p = re.compile('ioi')
+# print(p.findall("ioioioi"))
+
+N = 2
+print("IO"*N+"I")

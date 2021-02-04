@@ -41,3 +41,5 @@ N = 2
 print("IO"*N+"I")
 print(3//2)
 print(-3//2)
+
+print(65-ord("B"))

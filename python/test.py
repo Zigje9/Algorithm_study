@@ -37,9 +37,14 @@
 # p = re.compile('ioi')
 # print(p.findall("ioioioi"))
 
-N = 2
-print("IO"*N+"I")
-print(3//2)
-print(-3//2)
+# N = 2
+# print("IO"*N+"I")
+# print(3//2)
+# print(-3//2)
 
-print(65-ord("B"))
+# print(65-ord("B"))
+
+answer = ["a", "b", "c", "d", "e"]
+answer = answer[-3:-2]
+
+print(answer)

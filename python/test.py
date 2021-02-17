@@ -44,7 +44,14 @@
 
 # print(65-ord("B"))
 
-answer = ["a", "b", "c", "d", "e"]
-answer = answer[-3:-2]
+# answer = ["a", "b", "c", "d", "e"]
+# answer = answer[-3:-2]
 
-print(answer)
+# print(answer)
+
+A = "12A3B"
+total = 0
+for i in A:
+    if i.isdigit():
+        total += int(i)
+print(total)

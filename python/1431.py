@@ -17,6 +17,11 @@ def compare(a, b):
         for i in b:
             if i.isdigit():
                 sum_b += int(i)
+        # for i,j in zip(a,b):
+        #     if i.isdigit():
+        #         sum_a += int(i)
+        #     if j.isdigit():
+        #         sum_b += int(j)
         if sum_a == sum_b:
             return a > b
         return sum_a > sum_b

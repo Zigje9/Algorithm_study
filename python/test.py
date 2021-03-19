@@ -49,9 +49,13 @@
 
 # print(answer)
 
-A = "12A3B"
-total = 0
-for i in A:
-    if i.isdigit():
-        total += int(i)
-print(total)
+# A = "12A3B"
+# total = 0
+# for i in A:
+#     if i.isdigit():
+#         total += int(i)
+# print(total)
+
+d = {}
+
+print(d["1"])

@@ -56,6 +56,8 @@
 #         total += int(i)
 # print(total)
 
-d = {}
+# d = {}
 
-print(d["1"])
+# print(d["1"])
+
+# print("100".isdigit())

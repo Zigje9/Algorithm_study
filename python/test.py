@@ -62,4 +62,9 @@
 
 # print("100".isdigit())
 
-print(ord("A")-65)
+# print(ord("A")-65)
+
+A = 1111
+B = 1110
+
+print(A % 10)

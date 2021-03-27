@@ -64,11 +64,14 @@
 
 # print(ord("A")-65)
 
-A = str(12345)
+# A = str(12345)
 
-print(A[0:2])
-print(A[2:4])
+# print(A[0:2])
+# print(A[2:4])
 
-print(A[0] > A[1])
+# print(A[0] > A[1])
 
-print(A[:-1])
+# print(A[:-1])
+
+for i in range(0, 15, 3):
+    print(i)

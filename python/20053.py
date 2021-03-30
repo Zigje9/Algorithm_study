@@ -4,7 +4,7 @@ T = int(sys.stdin.readline())
 
 
 def solution():
-    N = int(sys.stdin.readline())
+    int(sys.stdin.readline())
     numlist = list(map(int, sys.stdin.readline().split()))
     print(min(numlist), max(numlist))
 

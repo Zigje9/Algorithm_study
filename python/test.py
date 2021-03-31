@@ -73,5 +73,8 @@
 
 # print(A[:-1])
 
-for i in range(0, 15, 3):
-    print(i)
+# for i in range(0, 15, 3):
+#     print(i)
+
+print(4 % 7)
+print(4 % 6)

@@ -78,3 +78,10 @@
 
 print(4 % 7)
 print(4 % 6)
+
+arr1 = [0, 0]
+arr2 = [0, 0]
+arr3 = [0, 0, 1]
+
+for i in range(20, 0, -1):
+    print(i)

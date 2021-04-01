@@ -76,12 +76,14 @@
 # for i in range(0, 15, 3):
 #     print(i)
 
-print(4 % 7)
-print(4 % 6)
+# print(4 % 7)
+# print(4 % 6)
 
-arr1 = [0, 0]
-arr2 = [0, 0]
-arr3 = [0, 0, 1]
+# arr1 = [0, 0]
+# arr2 = [0, 0]
+# arr3 = [0, 0, 1]
 
-for i in range(20, 0, -1):
-    print(i)
+# for i in range(20, 0, -1):
+#     print(i)
+
+print(list(map(str, str(3212))))

@@ -87,3 +87,6 @@
 #     print(i)
 
 print(list(map(str, str(3212))))
+
+A = "abcde"
+print(A[1:])

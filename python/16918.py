@@ -43,7 +43,7 @@ while N <= T:
         set_bomb()
     else:
         bomb()
-        make_list()
+        # make_list()
     N += 1
 
 for i in range(R):

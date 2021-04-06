@@ -86,7 +86,11 @@
 # for i in range(20, 0, -1):
 #     print(i)
 
-print(list(map(str, str(3212))))
+# print(list(map(str, str(3212))))
 
-A = "abcde"
-print(A[1:])
+# A = "abcde"
+# print(A[1:])
+
+temp = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(sum(temp[1][0:2]))

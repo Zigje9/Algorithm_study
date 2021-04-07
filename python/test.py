@@ -91,6 +91,14 @@
 # A = "abcde"
 # print(A[1:])
 
-temp = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# temp = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-print(sum(temp[1][0:2]))
+# print(sum(temp[1][0:2]))
+
+# next_x next_y
+
+# if 0 <= next_x < N and 0 <= next_y < M:
+#     if visit[next_x][next_y] == 0:
+
+
+# if 0 <= next_x < N and 0 <= next_y < M and visit[next_x][next_y] == 0:

@@ -100,5 +100,7 @@
 # if 0 <= next_x < N and 0 <= next_y < M:
 #     if visit[next_x][next_y] == 0:
 
-
-# if 0 <= next_x < N and 0 <= next_y < M and visit[next_x][next_y] == 0:
+# for i in range(4):
+#         next_x = x + move_x[i]
+#         next_y = y + move_y[i]
+#         if 0 <= next_x < N and 0 <= next_y < M

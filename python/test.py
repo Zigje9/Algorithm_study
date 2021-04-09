@@ -114,3 +114,6 @@
 
 # for val in my_array:
 #     print(val)
+
+A = 123
+print(sum(map(int, str(A))))

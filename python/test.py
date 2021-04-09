@@ -104,3 +104,13 @@
 #         next_x = x + move_x[i]
 #         next_y = y + move_y[i]
 #         if 0 <= next_x < N and 0 <= next_y < M
+
+# my_array = ["A", "B", "C", "D"]
+# ABCD,
+# A
+# B
+# C
+# D
+
+# for val in my_array:
+#     print(val)

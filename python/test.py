@@ -115,5 +115,10 @@
 # for val in my_array:
 #     print(val)
 
-A = 123
-print(sum(map(int, str(A))))
+# A = 123
+# print(sum(map(int, str(A))))
+
+a = {1, 2, 3}
+b = {1, 6}
+
+print(b.intersection(a) == b)

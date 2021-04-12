@@ -118,7 +118,10 @@
 # A = 123
 # print(sum(map(int, str(A))))
 
-a = {1, 2, 3}
-b = {1, 6}
+# a = {1, 2, 3}
+# b = {1, 6}
 
-print(b.intersection(a) == b)
+# print(b.intersection(a) == b)
+
+T = "abcd"
+print(T[:-1])

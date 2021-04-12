@@ -44,7 +44,7 @@ for com in combinations(sticker, 2):
     if rotate_A[0] + B[0] <= H and rotate_A[1] <= W and B[1] <= W:
         answer = max(answer, rotate_A[0]*rotate_A[1]+B[0]*B[1])
         continue
-    if rotate_A[0] + rotate_B[0] <= H and A[1] <= W and rotate_B[1] <= W:
+    if rotate_A[0] + rotate_B[0] <= H and rotate_A[1] <= W and rotate_B[1] <= W:
         answer = max(answer, rotate_A[0]*rotate_A[1]+rotate_B[0]*rotate_B[1])
         continue
 

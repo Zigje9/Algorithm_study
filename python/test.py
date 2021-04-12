@@ -123,5 +123,13 @@
 
 # print(b.intersection(a) == b)
 
-T = "abcd"
-print(T[:-1])
+# T = "abcd"
+# print(T[:-1])
+
+team = set()
+
+for i in range(1, 4):
+    team.add(i)
+
+print(list(team))
+# print(team[1])

@@ -126,10 +126,13 @@
 # T = "abcd"
 # print(T[:-1])
 
-team = set()
+# team = set()
 
-for i in range(1, 4):
-    team.add(i)
+# for i in range(1, 4):
+#     team.add(i)
 
-print(list(team))
-# print(team[1])
+# print(list(team))
+# # print(team[1])
+
+# A = [1, 2, 3, 4, 5, 5]
+# print(len(set(A)))

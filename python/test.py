@@ -140,4 +140,7 @@
 a = [[1, 2, 3], [4, 5, 6], [9, 1, 2]]
 
 
-print(max(map(max, a)))
+# print(max(map(max, a)))
+print([9, 1, 2] in a)
+
+print(int(12.9))

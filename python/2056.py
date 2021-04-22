@@ -30,7 +30,7 @@ def topo(work):
     while q:
         now = q.popleft()
 
-        for nx in graph[now]:
+        for nx in work[now]:
             degree[nx][1] = max(degree[nx][1], data[nx] + degree[now][1])
             degree[nx][0] -= 1
             if degree[nx][0] == 0:

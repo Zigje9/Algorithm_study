@@ -137,14 +137,21 @@
 # A = [1, 2, 3, 4, 5, 5]
 # print(len(set(A)))
 
-import sys
-a = [[1, 2, 3], [4, 5, 6], [9, 1, 2]]
+# import sys
+# a = [[1, 2, 3], [4, 5, 6], [9, 1, 2]]
 
-# print(max(map(max, a)))
-print([9, 1, 2] in a)
+# # print(max(map(max, a)))
+# print([9, 1, 2] in a)
 
-print(int(12.9))
+# print(int(12.9))
 
-INF = sys.maxsize
-print(INF+INF)
-print(INF)
+# INF = sys.maxsize
+# print(INF+INF)
+# print(INF)
+
+
+A = [1, 2, 3, 4, 5, 6]
+B = A[:]
+B[1] = 100
+print(A)
+print(B)

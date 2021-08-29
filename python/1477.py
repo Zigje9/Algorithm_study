@@ -5,11 +5,11 @@ N, M, L = map(int, sys.stdin.readline().split())
 rest = list(map(int, sys.stdin.readline().split()))
 
 rest.append(0)
-rest.append(L-1)
+rest.append(L)
 rest.sort()
 
 left = 0
-right = L-1
+right = L
 while left <= right:
     mid = (left + right) // 2
     count = 0
@@ -18,7 +18,7 @@ while left <= right:
             count += (rest[i+1]-rest[i]-1) // mid
     if count > M:
         left = mid + 1
-    else:
+    elif count <= M:
         answer = mid
         right = mid - 1
 

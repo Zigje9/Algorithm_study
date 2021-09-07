@@ -1,7 +1,15 @@
 import sys
+from collections import deque
 
-# a = [1,2,3,4,5]
-# N = len(a)
-# for i in range(N-1):
-#     for j in range(i+1, N):
-#         print(i, j)
+"""
+7
+2 3 4 0
+1 5 0
+1 5 6 0
+1 6 0
+2 3 7 0
+3 4 0
+5 0
+1
+1
+"""
